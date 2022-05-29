@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    width: 50%;
+    height: 100%;
+    margin: 50px auto;
+    position: relative;
+    padding: auto;
+}
+
+.upper-container1{
+    width: 40%;
+    height: 50%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight:bold;
+    font-size: 2.5rem;
+}
+#lists{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 25px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#addlist{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top: 30px;
+}
+.card1{
+    margin-top: 20px;
+    border: 1.5px solid rgb(235, 7, 7);
+    height: 55vh;
+    width: 18%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+    margin: auto;
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: rgb(235, 12, 12);
+    border-bottom:1px solid black ;
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    font-size: 19px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 70px;
+    text-decoration: line-through;
+}
+
+.div3{
+    width: 90%;
+    height: 15%;
+    position:absolute ;
+    top: 52%;
+    text-align: left;
+    font-size: 20;
+}
+
+#check{
+   width: 20px;
+   height: 15px;
+   margin-left: 10px;
+}
+
+.main{
+      display: flex;
+      margin: auto;
+}
+
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    margin-left: 35%;
+    align-items: center;
+    position: absolute;
+    height: 30vh;
+    width: 27%;
+    top:30%;
+    border: 1.5px solid red;
+    border-radius:5px;
+    color: red;
+    background-color:white;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px grey;
+    padding: 20px;
+
+}
+
+.add-new{
+    opacity: 0.7;
+    font-size: 17px;
+}
+
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 80%;
+    height: 27%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color:rgb(202, 33, 33) ;
+    border-radius:20px;
+    border: none;
+    position: absolute;
+}
