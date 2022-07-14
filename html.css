@@ -1,0 +1,42 @@
+.main{
+    
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      font-family: 'Edu SA Beginner', cursive;
+}
+.div1{
+    width: 20%;
+    height: 50vh;
+    background-image: linear-gradient(to right, red,rgb(231, 123, 0),rgb(109, 20, 117));
+
+    border: 1px solid black;
+    border-radius: 15px 50px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+}
+.div2{
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(255, 153, 0);
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px solid grey;
+    border-radius: 15px 50px ;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    background-image: linear-gradient(to right, rgb(84, 58, 233),rgb(139, 125, 202));
+    
+}
+
+.button{
+    color: aliceblue;
+    background-image: linear-gradient(to right,red,rgb(0, 128, 122));
+    border-radius: 30px 70px;
+}
+.button1{
+    color: aliceblue;
+    background-image: linear-gradient(to right,rgb(0, 68, 255),rgb(76, 33, 82));
+    border-radius: 30px 70px;
+}
+
